@@ -16,7 +16,16 @@
     "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
-    "module": "ES2022"
+    "module": "ES2022",
+    "baseUrl": "src",
+    "paths":{
+      "@components":[ "app/components"],
+      "@classes":[ "app/shared/services"],
+      "@common":[ "app/shared/services"],
+      "@enum":[ "app/shared/services"],
+      "@services":[ "app/shared/services"],
+    },
+
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
